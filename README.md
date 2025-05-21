@@ -13,7 +13,6 @@ Brain-Tumor-Detector/
 ├── Brain Tumor Detector.ipynb
 ├── README.md
 ├── dataset/                   # Folder containing MRI images (Tumor / No Tumor)
-├── models/                    # Saved trained models
 ├── outputs/                   # Model predictions, graphs, results
 └── requirements.txt           # Python dependencies
 
