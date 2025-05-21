@@ -1,6 +1,6 @@
 ---
 
-```
+```markdown
 # 🧠 Brain Tumor Detector
 
 A deep learning-based project that uses Convolutional Neural Networks (CNN) to classify brain MRI images as **tumor** or **no tumor**. This project aims to support medical professionals by providing an assistive diagnostic tool to improve accuracy and speed of brain tumor detection.
@@ -17,7 +17,7 @@ Brain-Tumor-Detector/
 ├── outputs/                   # Model predictions, graphs, results
 └── requirements.txt           # Python dependencies
 
-````
+```
 
 ## 🧠 Features
 
@@ -38,21 +38,25 @@ The dataset should contain MRI images organized in two folders:
 - `yes/` for tumor images
 - `no/` for non-tumor images
 
-You can download a sample dataset from [Kaggle](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection).
+You can download a sample dataset from [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection/).
 
 ## 🚀 How to Run
 
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/brain-tumor-detector.git
+
+git clone [https://github.com/Jenifa5804/Naan-Mudhalvan-Project.git]
 cd brain-tumor-detector
-````
+
+```
 
 ### 2. Install dependencies
 
 ```
+
 pip install -r requirements.txt
+
 ```
 
 ### 3. Run the notebook
@@ -61,45 +65,44 @@ Open `Brain Tumor Detector.ipynb` in Jupyter Notebook or JupyterLab and run all 
 
 ## ⚙️ Model Architecture
 
-* Conv2D → MaxPooling
-* Dropout layers for regularization
+* Conv2D → MaxPooling  
+* Dropout layers for regularization  
 * Flatten → Dense → Output (sigmoid)
 
 ```
+
 Input (128x128x3) → Conv2D → MaxPool → Dropout → Conv2D → MaxPool → Flatten → Dense → Sigmoid
+
 ```
 
 ## 📊 Evaluation Metrics
 
-* Accuracy
-* Loss
-* Confusion Matrix
+* Accuracy  
+* Loss  
+* Confusion Matrix  
 * Classification Report
 
 ## 📈 Training Performance
 
-* \~95% accuracy on validation set
-* Optimized using Adam optimizer and binary cross-entropy loss
+* ~95% accuracy on validation set  
+* Optimized using Adam optimizer and binary cross-entropy loss  
 * Trained for 20 epochs with early stopping
 
 ## 📌 Future Enhancements
 
-* Multi-class classification for different types of tumors
-* Integration with Flask or Streamlit for a web-based interface
-* Mobile deployment using TensorFlow Lite
+* Multi-class classification for different types of tumors  
+* Integration with Flask or Streamlit for a web-based interface  
+* Mobile deployment using TensorFlow Lite  
 * Grad-CAM visualization for explainable AI
 
 ## 🧑‍💻 Author
 
-**Jenifa**
+**Jenifa**  
 Computer Science Engineering Student
 
 ## 📄 License
 
 This project is licensed under the MIT License.
-
 ```
 
 ---
-
-```
